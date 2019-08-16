@@ -16,7 +16,7 @@ age = int(input("Введите свой возраст: "))
 weight = int(input("Введите свой вес: "))
 if age < 30 and (weight >= 50 or weight <= 120):
     print(f'{name} {age} лет, вес {weight} - хорошее состояние')
-elif (30 > age <40) and (weight < 50 or weight > 120):
+elif (age > 30 and age < 40) and (weight < 50 or weight > 120):
     print(f'{name} {age} лет, вес {weight} - следует заняться собой')
 elif age > 40 and (weight < 50 or weight > 120):
     print(f'{name} {age} лет, вес {weight} - следует обратиться к врачу')
